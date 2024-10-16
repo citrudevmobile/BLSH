@@ -1,10 +1,15 @@
 import React from 'react'
+import Background from './components/background.js'
+import Foreground from './components/foreground.js'
+import './components/styles/positions.css'
 
 function App () {
   return (
     <div>
-      <h1 class="bg-yellow-300">Hello, React with Parcel.js</h1>
+      <Background class='background' />
+      <Foreground class='foreground' />
     </div>
+
   )
 }
 

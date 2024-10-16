@@ -1,0 +1,11 @@
+.stack {
+    position: absolute;
+}
+
+.foreground {
+    z-index: 5;
+}
+
+.background {
+    z-index: 1;
+}
