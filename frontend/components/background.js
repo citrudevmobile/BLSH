@@ -1,6 +1,8 @@
 import './styles/main.css'
 import React from 'react'
 import images from './assets/images'
+import backgroundImages from './assets/backgrounds'
+import Infospace from './infospace'
 
 export default function Background () {
   return (
@@ -27,9 +29,7 @@ export default function Background () {
         <img src={images.imageSeven} />
       </div>
       <div class='parallax__cover'>
-        <div class="flex justify-center pt-20">
-            <p class="text-white text-lg">Hello there</p>
-        </div>
+      <Infospace />
       </div>
 
     </div>
