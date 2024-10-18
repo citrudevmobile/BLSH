@@ -11,7 +11,7 @@ export default function Infospace () {
               Why BLSH
             </button>
           </div>
-          <div class="px-6 bg-black/80 rounded-lg backdrop-blur-sm py-6 ">
+          <div class="px-6 bg-black/70 rounded-lg backdrop-blur-sm py-6 ">
 
             <p class="text-xl text-white font-bold space-y-4">
               <p>Aside from the risks of hacks and frauds, one of the most common sources of potential money losses is misconfiguration of cryptocurrency trading bots owing to a lack of adequate knowledge and experience. Configuring cryptocurrency trading bots can be a difficult task, especially for inexperienced traders. To effectively configure the bots, traders must first comprehend technical indicators and trading strategies. So we built a product that makes it easier to configure the bots while simultaneously providing you with advanced control over them.</p>
@@ -55,12 +55,12 @@ export default function Infospace () {
             </div>
 
             <div>
-              <p class='font-semibold text-gray-800 dark:text-white'>Industries</p>
+              <p class='font-semibold text-gray-800 dark:text-white'>Blog</p>
 
               <div class='flex flex-col items-start mt-5 space-y-2'>
-                <p class='text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500'>Retail & E-Commerce</p>
-                <p class='text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500'>Information Technology</p>
-                <p class='text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500'>Finance & Insurance</p>
+                <p class='text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500'>What is Microfinance</p>
+                <p class='text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500'>9 Psychological trading mistakes and how to avoid them</p>
+                <p class='text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500'>7 Traits of Successful Traders, What It Takes To Become Successful In Trading</p>
               </div>
             </div>
           </div>
@@ -68,19 +68,16 @@ export default function Infospace () {
           <hr class='my-6 border-gray-200 md:my-8 dark:border-gray-700 h-2' />
 
           <div class='sm:flex sm:items-center sm:justify-between'>
-            <div class='flex flex-1 gap-4 hover:cursor-pointer'>
-              <img src='https://www.svgrepo.com/show/303139/google-play-badge-logo.svg' width='130' height='110' alt='' />
-              <img src='https://www.svgrepo.com/show/303128/download-on-the-app-store-apple-logo.svg' width='130' height='110' alt='' />
-            </div>
+           
 
             <div class='flex gap-4 hover:cursor-pointer'>
-              <img src='https://www.svgrepo.com/show/303114/facebook-3-logo.svg' width='30' height='30' alt='fb' />
+              
               <img src='https://www.svgrepo.com/show/303115/twitter-3-logo.svg' width='30' height='30' alt='tw' />
-              <img src='https://www.svgrepo.com/show/303145/instagram-2-1-logo.svg' width='30' height='30' alt='inst' />
+              
               <img src='https://www.svgrepo.com/show/94698/github.svg' class='' width='30' height='30' alt='gt' />
-              <img src='https://www.svgrepo.com/show/22037/path.svg' width='30' height='30' alt='pn' />
+              
               <img src='https://www.svgrepo.com/show/28145/linkedin.svg' width='30' height='30' alt='in' />
-              <img src='https://www.svgrepo.com/show/22048/dribbble.svg' class='' width='30' height='30' alt='db' />
+              
             </div>
           </div>
           <p class='font-sans p-8 text-start md:text-center md:text-lg md:p-4'>© 2023 BLSH. All rights reserved.</p>
