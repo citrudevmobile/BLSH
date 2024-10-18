@@ -1,7 +1,7 @@
 import './styles/main.css'
 import React from 'react'
 import images from './assets/images'
-import backgroundImages from './assets/backgrounds'
+import backgroundImages from './assets/backgroundImages'
 import Infospace from './infospace'
 
 export default function Background () {
@@ -29,7 +29,7 @@ export default function Background () {
         <img src={images.imageSeven} />
       </div>
       <div class='parallax__cover'>
-      <Infospace />
+        <Infospace />
       </div>
 
     </div>

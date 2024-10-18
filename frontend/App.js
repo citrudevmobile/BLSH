@@ -6,8 +6,8 @@ import './components/styles/positions.css'
 function App () {
   return (
     <div>
-      <Background class='background' />
-      <Foreground class='foreground' />
+      <Background class='stack background' />
+      <Foreground class='stack foreground' />
     </div>
 
   )
