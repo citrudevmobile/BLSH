@@ -33,16 +33,17 @@ export default function Infospace () {
           Two Step Approach
         </button>
         <div class='w-full h-96 flex flex-cols justify-center items-center px-8 space-x-20 p-4'>
-          <div class="space-y-2 md:invisible visible">
-            <p class='px-2 bg-white/70 rounded-lg backdrop-blur-sm py-4'> Discover and use high-performing recipes, or create your own recipe. Our state-of-the-art dashboard will make creating a recipe a breeze.</p>
-            <p class='px-2 bg-white/70 rounded-lg backdrop-blur-sm py-2'> Use your recipes to cook profits! Automatically stir the pot with machine learning, thereby optimizing your recipes and making sure your profit sauce doesn't get burned. Time to taste the profits...</p>
+          <div class='space-y-2 md:hidden block w-full'>
+            <p class='px-2 bg-white/70 rounded-lg backdrop-blur-sm py-4 w-full'> Discover and use high-performing recipes, or create your own recipe. Our state-of-the-art dashboard will make creating a recipe a breeze.</p>
+            <p class='px-2 bg-white/70 rounded-lg backdrop-blur-sm py-2 w-full'> Use your recipes to cook profits! Automatically stir the pot with machine learning, thereby optimizing your recipes and making sure your profit sauce doesn't get burned. Time to taste the profits...</p>
           </div>
-          <div class='invisible md:visible h-40 md:h-80 text-center bg-gradient-to-r from-orange-500/50 to-pink-500/50 font-bold font-sans text-base w-96 rounded-lg backdrop-blur-sm p-4'>
+
+          <div class='hidden md:block h-40 md:h-80 text-center bg-gradient-to-r from-orange-500/50 to-pink-500/50 font-bold font-sans text-base w-96 rounded-lg backdrop-blur-sm p-4'>
             <img class='w-80 h-40 md:h-80 object-contain invisible md:visible' src={`${backgroundImages.imageRecipe}`} />
             <p class='px-2 bg-white/70 rounded-lg backdrop-blur-sm py-4'> Discover and use high-performing recipes, or create your own recipe. Our state-of-the-art dashboard will make creating a recipe a breeze.</p>
           </div>
 
-          <div class='invisible md:visible h-40 md:h-80 text-center bg-gradient-to-r from-orange-500/50 to-pink-500/50 font-bold font-sans text-base w-96 rounded-lg backdrop-blur-sm p-4'>
+          <div class='hidden md:block h-40 md:h-80 text-center bg-gradient-to-r from-orange-500/50 to-pink-500/50 font-bold font-sans text-base w-96 rounded-lg backdrop-blur-sm p-4'>
             <img class='w-80 h-40 md:h-80 object-contain ' src={`${backgroundImages.imageCook}`} />
             <p class='px-2 bg-white/70 rounded-lg backdrop-blur-sm py-2'> Use your recipes to cook profits! Automatically stir the pot with machine learning, thereby optimizing your recipes and making sure your profit sauce doesn't get burned. Time to taste the profits...</p>
           </div>
