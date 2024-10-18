@@ -5,18 +5,17 @@ export default function Foreground () {
   const [scrolled, setScrolled] = useState(false)
 
   useEffect(() => {
-    
-    document.getElementById("feed-scroll").addEventListener("scroll", async function () {
+    document.getElementById('feed-scroll').addEventListener('scroll', async function () {
       alert('works')
       const diff = difference((this.scrollTop + this.clientHeight), (this.scrollHeight))
       if (diff < 1) {
-          alert('scrolling...')
+        alert('scrolling...')
       }
     })
   })
 
   return (
-    <div id="feed-scroll" class='h-screen w-full bg-white flex flex-col'>
+    <div id='feed-scroll' class='h-screen w-full bg-white flex flex-col'>
       <div class='flex justify-center'>
         <header class='w-5/6 mt-5 text-white invisible md:visible bg-black/50 rounded-full shadow-sm body-font'>
           <div class='container flex flex-col items-start p-4 mx-auto md:flex-row items-center'>
@@ -48,7 +47,7 @@ export default function Foreground () {
           <p class='font-bold text-center'>The path to profits sounds easy; why should the setup and use of automated trading software be complex?</p>
         </div>
         <div>
-          <p class='text-xl font-black text-center obitron'>Automated Crypto Trading Simplified</p>
+          <p class='text-2xl font-black text-center obitron'>Automated Crypto Trading Simplified</p>
           <p class='text-lg font-bold text-center obitron'>Accessible and Powerful</p>
         </div>
         <button class='border-x-8 border-x-transparent bg-transparent text-xs font-bold  text-pink-500 font-semibold hover:text-orange-700 py-2 px-4 border border-orange-500 hover:border-transparent rounded-full mt-10'>

@@ -1,5 +1,6 @@
 import React from 'react'
 import backgroundImages from './assets/backgroundImages'
+import './styles/hexagon.css'
 //
 export default function Infospace () {
   return (
@@ -11,23 +12,42 @@ export default function Infospace () {
               Why BLSH
             </button>
           </div>
-          <div class="px-6 bg-black/70 rounded-lg backdrop-blur-sm py-6 ">
+          <div class='px-6 bg-black/70 rounded-lg backdrop-blur-sm py-6 '>
 
-            <p class="text-xl text-white font-bold space-y-4">
+            <p class='text-xl text-white font-bold space-y-4'>
               <p>Aside from the risks of hacks and frauds, one of the most common sources of potential money losses is misconfiguration of cryptocurrency trading bots owing to a lack of adequate knowledge and experience. Configuring cryptocurrency trading bots can be a difficult task, especially for inexperienced traders. To effectively configure the bots, traders must first comprehend technical indicators and trading strategies. So we built a product that makes it easier to configure the bots while simultaneously providing you with advanced control over them.</p>
-              <p class="px-4 py-2 bg-white/80 text-black rounded-xl backdrop-blur-sm">BLSH code is opensource and built on top of Freqtrade  a free and open source crypto trading bot that has been battle tested.</p>
+              <p class='px-4 py-2 bg-white/80 text-black rounded-xl backdrop-blur-sm'>BLSH code is opensource and built on top of Freqtrade  a free and open source crypto trading bot that has been battle tested.</p>
             </p>
           </div>
           <a
-                href='#_'
-                class='px-4 py-2 text-lg font-black text-white uppercase transition-all duration-150 bg-teal-500 rounded-full shadow outline-none active:bg-teal-600 hover:shadow-md focus:outline-none ease'
-              >
-                Get Started
-              </a>
+            href='#_'
+            class='px-4 py-2 text-lg font-black text-white uppercase transition-all duration-150 bg-teal-500 rounded-full shadow outline-none active:bg-teal-600 hover:shadow-md focus:outline-none ease'
+          >
+            Get Started
+          </a>
         </div>
       </div>
 
-      <div style={{ height: '700px' }} class=' bg-no-repeat bg-cover bg-center flex justify-center items-center' />
+      <div style={{ height: '700px' }} class='text-center space-y-20'>
+        <button class='border-x-8 border-x-transparent bg-transparent text-lg font-bold  text-white  py-2 px-4 border-4 border-orange-500 hover:border-transparent rounded-full'>
+          Two Step Approach
+        </button>
+        <div class='w-full h-96 flex flex-cols justify-center items-center px-8 space-x-20 p-4'>
+          <div class="space-y-2 md:invisible visible">
+            <p class='px-2 bg-white/70 rounded-lg backdrop-blur-sm py-4'> Discover and use high-performing recipes, or create your own recipe. Our state-of-the-art dashboard will make creating a recipe a breeze.</p>
+            <p class='px-2 bg-white/70 rounded-lg backdrop-blur-sm py-2'> Use your recipes to cook profits! Automatically stir the pot with machine learning, thereby optimizing your recipes and making sure your profit sauce doesn't get burned. Time to taste the profits...</p>
+          </div>
+          <div class='invisible md:visible h-40 md:h-80 text-center bg-gradient-to-r from-orange-500/50 to-pink-500/50 font-bold font-sans text-base w-96 rounded-lg backdrop-blur-sm p-4'>
+            <img class='w-80 h-40 md:h-80 object-contain invisible md:visible' src={`${backgroundImages.imageRecipe}`} />
+            <p class='px-2 bg-white/70 rounded-lg backdrop-blur-sm py-4'> Discover and use high-performing recipes, or create your own recipe. Our state-of-the-art dashboard will make creating a recipe a breeze.</p>
+          </div>
+
+          <div class='invisible md:visible h-40 md:h-80 text-center bg-gradient-to-r from-orange-500/50 to-pink-500/50 font-bold font-sans text-base w-96 rounded-lg backdrop-blur-sm p-4'>
+            <img class='w-80 h-40 md:h-80 object-contain ' src={`${backgroundImages.imageCook}`} />
+            <p class='px-2 bg-white/70 rounded-lg backdrop-blur-sm py-2'> Use your recipes to cook profits! Automatically stir the pot with machine learning, thereby optimizing your recipes and making sure your profit sauce doesn't get burned. Time to taste the profits...</p>
+          </div>
+        </div>
+      </div>
 
       <footer class='bg-gradient-to-r from-orange-500 to-pink-500 font-sans dark:bg-gray-900'>
         <div class='container px-6 py-12 mx-auto'>
@@ -68,16 +88,15 @@ export default function Infospace () {
           <hr class='my-6 border-gray-200 md:my-8 dark:border-gray-700 h-2' />
 
           <div class='sm:flex sm:items-center sm:justify-between'>
-           
 
             <div class='flex gap-4 hover:cursor-pointer'>
-              
+
               <img src='https://www.svgrepo.com/show/303115/twitter-3-logo.svg' width='30' height='30' alt='tw' />
-              
+
               <img src='https://www.svgrepo.com/show/94698/github.svg' class='' width='30' height='30' alt='gt' />
-              
+
               <img src='https://www.svgrepo.com/show/28145/linkedin.svg' width='30' height='30' alt='in' />
-              
+
             </div>
           </div>
           <p class='font-sans p-8 text-start md:text-center md:text-lg md:p-4'>© 2023 BLSH. All rights reserved.</p>
