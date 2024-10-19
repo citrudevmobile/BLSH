@@ -28,7 +28,7 @@ export default function Infospace () {
         </div>
       </div>
 
-      <div style={{ height: '700px' }} class='text-center space-y-20'>
+      <div style={{ height: '700px' }} class='text-center md:space-y-4 md:space-y-20 pt-80 md:pt-0'>
         <button class='border-x-8 border-x-transparent bg-transparent text-lg font-bold  text-white  py-2 px-4 border-4 border-orange-500 hover:border-transparent rounded-full'>
           Two Step Approach
         </button>
@@ -70,8 +70,9 @@ export default function Infospace () {
 
               <div class='flex flex-col items-start mt-5 space-y-2'>
                 <p class='text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500'>Home</p>
-                <p class='text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500'>Who We Are</p>
-                <p class='text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500'>Our Philosophy</p>
+                <p class='text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500'>About</p>
+                <p class='text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500'>Login</p>
+                <p class='text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500'>Sign Up</p>
               </div>
             </div>
 

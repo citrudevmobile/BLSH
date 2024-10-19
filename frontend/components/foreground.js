@@ -17,7 +17,7 @@ export default function Foreground () {
   return (
     <div id='feed-scroll' class='h-screen w-full bg-white flex flex-col'>
       <div class='flex justify-center'>
-        <header class='w-5/6 mt-5 text-white invisible md:visible bg-black/50 rounded-full shadow-sm body-font'>
+        <header class='w-5/6 mt-5 text-white hidden md:block bg-black/50 rounded-full shadow-sm body-font'>
           <div class='container flex flex-col items-start p-4 mx-auto md:flex-row items-center'>
             <a class='flex honkHeading text-2xl items-center font-black text-gray-900 title-font md:mb-0'>
               BLSH
@@ -42,7 +42,7 @@ export default function Foreground () {
       <div
         class='flex flex-col justify-center bg-contain items-center pt-5 space-y-8'
       >
-        <div class='space-y-2'>
+        <div class='space-y-2 px-2'>
           <h1 class='honkHeading text-6xl font-black text-center'>Buy Low Sell High</h1>
           <p class='font-bold text-center'>The path to profits sounds easy; why should the setup and use of automated trading software be complex?</p>
         </div>
