@@ -1,5 +1,5 @@
 import React from 'react'
-import { Route, Routes, Navigate, useNavigate } from 'react-router-dom'
+import { Route, Routes, Navigate } from 'react-router-dom'
 import Home from './components/home.js'
 import Login from './components/login.js'
 import Signup from './components/signup.js'
@@ -22,7 +22,7 @@ function App () {
         path='/signup'
         element={<Signup />}
       />
-      
+
       <Route path='*' element={<Navigate to='/' />} />
     </Routes>
 

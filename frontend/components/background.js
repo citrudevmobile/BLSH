@@ -1,5 +1,6 @@
 import './styles/main.css'
 import React, { useState, useEffect } from 'react'
+import { NavLink } from 'react-router-dom'
 import images from './assets/images'
 import Infospace from './infospace'
 
@@ -41,17 +42,12 @@ export default function Background () {
                 BLSH
               </a>
               <nav class='flex items-center justify-center text-base ml-4 md:ml-auto'>
-                <a href='#_' class='mr-5 font-medium hover:text-gray-900'>Home</a>
-                <a href='#_' class='mr-5 font-medium hover:text-gray-900'>About</a>
+                <NavLink end to='/' className='mr-5 font-medium hover:text-gray-900'>Home</NavLink>
+                <NavLink end to='/about' className='mr-5 font-medium hover:text-gray-900'>About</NavLink>
               </nav>
               <div class='items-center h-full pl-10 md:pl-6 md:ml-6 border-l border-gray-200'>
-                <a href='#_' class='mr-5 font-medium hover:text-gray-900'>Login</a>
-                <a
-                  href='#_'
-                  class='px-4 py-2 text-xs font-bold text-white uppercase transition-all duration-150 bg-teal-500 rounded-full shadow outline-none active:bg-teal-600 hover:shadow-md focus:outline-none ease'
-                >
-                  Sign Up
-                </a>
+                <NavLink end to='/login' className='mr-5 font-medium hover:text-gray-900'>Login</NavLink>
+                <NavLink end to='/signup' className='px-4 py-2 text-xs font-bold text-white uppercase transition-all duration-150 bg-teal-500 rounded-full shadow outline-none active:bg-teal-600 hover:shadow-md focus:outline-none ease'>Sign Up</NavLink>
               </div>
             </div>
           </header>

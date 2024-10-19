@@ -1,5 +1,6 @@
 import React from 'react'
 import backgroundImages from './assets/backgroundImages'
+import { NavLink } from 'react-router-dom'
 import './styles/hexagon.css'
 //
 export default function Infospace () {
@@ -19,12 +20,8 @@ export default function Infospace () {
               <p class='px-4 py-2 bg-white/80 text-black rounded-xl backdrop-blur-sm'>BLSH code is opensource and built on top of Freqtrade  a free and open source crypto trading bot that has been battle tested.</p>
             </p>
           </div>
-          <a
-            href='#_'
-            class='px-4 py-2 text-lg font-black text-white uppercase transition-all duration-150 bg-teal-500 rounded-full shadow outline-none active:bg-teal-600 hover:shadow-md focus:outline-none ease'
-          >
-            Get Started
-          </a>
+
+          <NavLink end to='/signup' className='px-4 py-2 text-lg font-black text-white uppercase transition-all duration-150 bg-teal-500 rounded-full shadow outline-none active:bg-teal-600 hover:shadow-md focus:outline-none ease'>Get Started</NavLink>
         </div>
       </div>
 
@@ -69,10 +66,10 @@ export default function Infospace () {
               <p class='font-semibold text-gray-800 dark:text-white'>Quick Link</p>
 
               <div class='flex flex-col items-start mt-5 space-y-2'>
-                <p class='text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500'>Home</p>
-                <p class='text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500'>About</p>
-                <p class='text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500'>Login</p>
-                <p class='text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500'>Sign Up</p>
+                <NavLink end to='/' className='text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500'>Home</NavLink>
+                <NavLink end to='/about' className='text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500'>About</NavLink>
+                <NavLink end to='/login' className='text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500'>Login</NavLink>
+                <NavLink end to='/signup' className='text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500'>Sign Up</NavLink>
               </div>
             </div>
 

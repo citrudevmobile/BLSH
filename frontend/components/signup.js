@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react'
 import backgroundImages from './assets/backgroundImages'
 
 export default function Background () {
-
   const [scrolled, setScrolled] = useState(false)
 
   useEffect(() => {
