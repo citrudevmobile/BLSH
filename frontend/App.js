@@ -1,14 +1,30 @@
 import React from 'react'
-import Background from './components/background.js'
-import Foreground from './components/foreground.js'
-import './components/styles/positions.css'
+import { Route, Routes, Navigate, useNavigate } from 'react-router-dom'
+import Home from './components/home.js'
+import Login from './components/login.js'
+import Signup from './components/signup.js'
 
 function App () {
   return (
-    <div>
-      <Background class='stack background' />
-      <Foreground class='stack foreground' />
-    </div>
+    <Routes>
+
+      <Route
+        path='/'
+        element={<Home />}
+      />
+
+      <Route
+        path='/login'
+        element={<Login />}
+      />
+
+      <Route
+        path='/signup'
+        element={<Signup />}
+      />
+      
+      <Route path='*' element={<Navigate to='/' />} />
+    </Routes>
 
   )
 }

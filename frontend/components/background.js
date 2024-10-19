@@ -7,17 +7,7 @@ export default function Background () {
   const [scrolled, setScrolled] = useState(false)
 
   useEffect(() => {
-    document.getElementById('feed-scroll').addEventListener('scroll', async function () {
-      const st = window.pageYOffset || document.documentElement.scrollTop // Credits: "https://github.com/qeremy/so/blob/master/so.dom.js#L426"
-      if (st > lastScrollTop) {
-        // downscroll code
-        alert('down scroll')
-      } else if (st < lastScrollTop) {
-        // upscroll code
-        alert('down scroll')
-      } // else was horizontal scroll
-      lastScrollTop = st <= 0 ? 0 : st
-    })
+
   })
 
   return (
