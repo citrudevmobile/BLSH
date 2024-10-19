@@ -29,13 +29,13 @@ export default function Infospace () {
       </div>
 
       <div style={{ height: '700px' }} class='text-center md:space-y-4 md:space-y-20 pt-80 md:pt-0'>
-        <button class='border-x-8 border-x-transparent bg-transparent text-lg font-bold  text-white  py-2 px-4 border-4 border-orange-500 hover:border-transparent rounded-full'>
+        <button class='border-x-8 hidden md:inline border-x-transparent bg-transparent text-lg font-bold  text-white  py-2 px-4 border-4 border-orange-500 hover:border-transparent rounded-full'>
           Two Step Approach
         </button>
         <div class='w-full h-96 flex flex-cols justify-center items-center px-8 space-x-20 p-4'>
           <div class='space-y-2 md:hidden block w-full'>
-            <p class='px-2 bg-white/70 rounded-lg backdrop-blur-sm py-4 w-full'> Discover and use high-performing recipes, or create your own recipe. Our state-of-the-art dashboard will make creating a recipe a breeze.</p>
-            <p class='px-2 bg-white/70 rounded-lg backdrop-blur-sm py-2 w-full'> Use your recipes to cook profits! Automatically stir the pot with machine learning, thereby optimizing your recipes and making sure your profit sauce doesn't get burned. Time to taste the profits...</p>
+            <p class='px-2 bg-white/70 rounded-lg backdrop-blur-sm py-4 w-full font-semibold'> Discover and use high-performing recipes, or create your own recipe. Our state-of-the-art dashboard will make creating a recipe a breeze.</p>
+            <p class='px-2 bg-white/70 rounded-lg backdrop-blur-sm py-2 w-full font-semibold'> Use your recipes to cook profits! Automatically stir the pot with machine learning, thereby optimizing your recipes and making sure your profit sauce doesn't get burned. Time to taste the profits...</p>
           </div>
 
           <div class='hidden md:block h-40 md:h-80 text-center bg-gradient-to-r from-orange-500/50 to-pink-500/50 font-bold font-sans text-base w-96 rounded-lg backdrop-blur-sm p-4'>
