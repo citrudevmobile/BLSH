@@ -47,7 +47,7 @@
     transform: translateX(0px);
   }
   #app.list-toggled #crypto-details #crypto-details-content {
-    padding-top: 180px;
+  
     margin-left: 480px;
     width: calc(100% - 480px);
   }
@@ -183,6 +183,7 @@
     font-size: 1.75em;
   }
   #app #crypto-details {
+    padding-top: 180px;
     animation: fadeInFromLeft 0.25s ease-in;
     height: 100vh;
     left: 0px;
@@ -281,7 +282,7 @@
     z-index: 1;
   }
   #app #crypto-list-toggle-button {
-    background-color: #1e1e1e;
+    background-color: white;
     border: none;
     border-radius: 100px;
     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 1px 4px;

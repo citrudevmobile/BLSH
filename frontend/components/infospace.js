@@ -4,45 +4,23 @@ import { NavLink } from 'react-router-dom'
 
 export default function Infospace () {
   return (
-    <div class='h-full w-full relative space-y-10 pt-14'>
-      <div style={{ background: `url(${backgroundImages.chartLines})`, height: '700px' }} class='bg-no-repeat bg-cover bg-center flex justify-center items-center'>
-        <div class='text-white text-center bg-black/40 w-10/12 h-full rounded-xl space-y-12 px-4 flex flex-col items-center'>
+    <div class='h-full w-full relative space-y-10 pt-5 md:pt-14'>
+      <div style={{ background: `url(${backgroundImages.chartLines})` }} class='bg-no-repeat bg-cover bg-center flex justify-center items-center'>
+        <div class='text-white text-center bg-black/40 w-10/12 h-full rounded-xl space-y-5 md:space-y-12 px-4 py-4 flex flex-col items-center'>
           <div class='flex flex-col justify-center bg-contain items-center pt-5'>
             <button class='border-x-8 border-x-transparent bg-transparent text-lg font-bold  text-white  py-2 px-4 border-4 border-orange-500 hover:border-transparent rounded-full mt-10'>
               Why BLSH
             </button>
           </div>
           <div class='px-6 bg-black/70 rounded-lg backdrop-blur-sm py-6 '>
-
-            <p class='text-xl text-white font-bold space-y-4'>
-              <p>Aside from the risks of hacks and frauds, one of the most common sources of potential money losses is misconfiguration of cryptocurrency trading bots owing to a lack of adequate knowledge and experience. Configuring cryptocurrency trading bots can be a difficult task, especially for inexperienced traders. To effectively configure the bots, traders must first comprehend technical indicators and trading strategies. So we built a product that makes it easier to configure the bots while simultaneously providing you with advanced control over them.</p>
+            <p class='text-sm md:text-xl text-white font-bold space-y-4'>
+              <p>Aside from the risks of hacks and frauds, one of the most common sources of potential money losses is misconfiguration of cryptocurrency trading bots owing to a lack of adequate knowledge and experience. </p>
+              <p>Configuring cryptocurrency trading bots can be a difficult task, especially for inexperienced traders. To effectively configure the bots, traders must first comprehend technical indicators and trading strategies. So we built a product that makes it easier to configure the bots while simultaneously providing you with advanced control over them.</p>
               <p class='px-4 py-2 bg-white/80 text-black rounded-xl backdrop-blur-sm'>BLSH code is opensource and built on top of Freqtrade  a free and open source crypto trading bot that has been battle tested.</p>
             </p>
           </div>
 
-          <NavLink end to='/signup' className='px-4 py-2 text-lg font-black text-white uppercase transition-all duration-150 bg-teal-500 rounded-full shadow outline-none active:bg-teal-600 hover:shadow-md focus:outline-none ease'>Get Started</NavLink>
-        </div>
-      </div>
-
-      <div style={{ height: '700px' }} class='text-center md:space-y-4 md:space-y-20 pt-80 md:pt-0'>
-        <button class='border-x-8 hidden md:inline border-x-transparent bg-transparent text-lg font-bold  text-white  py-2 px-4 border-4 border-orange-500 hover:border-transparent rounded-full'>
-          Two Step Approach
-        </button>
-        <div class='w-full h-96 flex flex-cols justify-center items-center px-8 space-x-20 p-4'>
-          <div class='space-y-2 md:hidden block w-full'>
-            <p class='px-2 bg-white/70 rounded-lg backdrop-blur-sm py-4 w-full font-semibold'> Discover and use high-performing recipes, or create your own recipe. Our state-of-the-art dashboard will make creating a recipe a breeze.</p>
-            <p class='px-2 bg-white/70 rounded-lg backdrop-blur-sm py-2 w-full font-semibold'> Use your recipes to cook profits! Automatically stir the pot with machine learning, thereby optimizing your recipes and making sure your profit sauce doesn't get burned. Time to taste the profits...</p>
-          </div>
-
-          <div class='hidden md:block h-40 md:h-80 text-center bg-gradient-to-r from-orange-500/50 to-pink-500/50 font-bold font-sans text-base w-96 rounded-lg backdrop-blur-sm p-4'>
-            <img class='w-80 h-40 md:h-80 object-contain invisible md:visible' src={`${backgroundImages.imageRecipe}`} />
-            <p class='px-2 bg-white/70 rounded-lg backdrop-blur-sm py-4'> Discover and use high-performing recipes, or create your own recipe. Our state-of-the-art dashboard will make creating a recipe a breeze.</p>
-          </div>
-
-          <div class='hidden md:block h-40 md:h-80 text-center bg-gradient-to-r from-orange-500/50 to-pink-500/50 font-bold font-sans text-base w-96 rounded-lg backdrop-blur-sm p-4'>
-            <img class='w-80 h-40 md:h-80 object-contain ' src={`${backgroundImages.imageCook}`} />
-            <p class='px-2 bg-white/70 rounded-lg backdrop-blur-sm py-2'> Use your recipes to cook profits! Automatically stir the pot with machine learning, thereby optimizing your recipes and making sure your profit sauce doesn't get burned. Time to taste the profits...</p>
-          </div>
+          <NavLink end to='/signup' className='px-4 py-2  text-sm md:text-lg font-black text-white uppercase transition-all duration-150 bg-teal-500 rounded-full shadow outline-none active:bg-teal-600 hover:shadow-md focus:outline-none ease'>Get Started</NavLink>
         </div>
       </div>
 

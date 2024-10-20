@@ -334,15 +334,15 @@ const App = () => {
   return (
     React.createElement(AppContext.Provider, { value: { state, selectCrypto, setStateTo, toggleList } },
       React.createElement('div', { className: 'base-back border-b-white' },
-        React.createElement('h1', { className: 'honkHeading text-6xl md:text-8xl font-black text-center' }, 'Buy Low Sell High',
-          React.createElement('p', { className: 'text-sm text-white font-sans' }, 'The path to profits sounds easy; why should the setup and use of automated trading software be complex?',
-            React.createElement('p', { className: 'text-2xl font-black text-center obitron text-white mt-5' }, 'Automated Crypto Trading Simplified',
-              React.createElement('p', { className: 'text-lg font-bold text-center obitron' }, 'Accessible and Powerful',
-                  React.createElement('div', { id: 'app', className: classNames({ 'list-toggled': state.listToggled }) },
-                    React.createElement(CryptoList, null),
-                    React.createElement(CryptoDetails, null),
-                    React.createElement(CryptoListToggle, null),
-                    getLoadingSpinner()))))))))
+        React.createElement('h1', { className: 'text-4xl md:text-8xl font-black text-center pt-1' }, 'Buy Low Sell High',
+          React.createElement('p', { className: 'text-xs md:text-sm text-white mt-1 md:mt-2 font-bold' }, 'The path to profits sounds easy; why should the setup and use of automated trading software be complex?',
+            React.createElement('p', { className: 'text-lg md:text-2xl font-black text-center obitron text-white mt-1 md:mt-3' }, 'Automated Crypto Trading Simplified',
+              React.createElement('p', { className: 'text-sm md:text-lg font-bold text-center obitron' }, 'Accessible and Powerful',
+                React.createElement('div', { id: 'app', className: classNames({ 'list-toggled': state.listToggled }) },
+                  React.createElement(CryptoList, null),
+                  React.createElement(CryptoDetails, null),
+                  React.createElement(CryptoListToggle, null),
+                  getLoadingSpinner()))))))))
 }
 
 export default function Pricetracker () {
