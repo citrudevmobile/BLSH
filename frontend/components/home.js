@@ -6,7 +6,7 @@ import './styles/positions.css'
 export default function Home () {
   return (
     <div>
-      <Background class='stack background' />
+      <Background class='background' />
     </div>
   )
 }

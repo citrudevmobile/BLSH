@@ -24,6 +24,22 @@ export default function Infospace () {
         </div>
       </div>
 
+      <div class='text-center md:pt-0 mb-10'>
+        <div class='w-full h-96 flex flex-cols justify-center items-center px-8 space-x-20 py-8'>
+          <div class='space-y-12 w-full'>
+            <div class='relative px-2 bg-white/70 rounded-lg backdrop-blur-sm py-4 w-full font-semibold'>
+              <p>Discover and use high-performing recipes, or create your own recipe. Our state-of-the-art dashboard will make creating a recipe a breeze.</p>
+              <div class='absolute -top-5 -left-3 px-2.5 py-0.5 bg-teal-500 rounded-full text-xs text-white'>Step 1</div>
+            </div>
+            <div class='relative px-2 bg-white/70 rounded-lg backdrop-blur-sm py-4 w-full font-semibold'>
+              <p> Use your recipes to cook profits! Automatically stir the pot with machine learning, thereby optimizing your recipes and making sure your profit sauce doesn't get burned. Time to taste the profits...</p>
+              <div class='absolute -top-5 -left-3 px-2.5 py-0.5 bg-teal-500 rounded-full text-xs text-white'>Step 2</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
       <footer class='bg-gradient-to-r from-orange-500 to-pink-500 font-sans dark:bg-gray-900'>
         <div class='container px-6 py-12 mx-auto'>
           <div class='grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-4'>
