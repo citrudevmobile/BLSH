@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 
 export default function Infospace () {
   return (
-    <div class='h-full w-full relative space-y-10 pt-36'>
+    <div class='h-full w-full relative space-y-10 pt-14'>
       <div style={{ background: `url(${backgroundImages.chartLines})`, height: '700px' }} class='bg-no-repeat bg-cover bg-center flex justify-center items-center'>
         <div class='text-white text-center bg-black/40 w-10/12 h-full rounded-xl space-y-12 px-4 flex flex-col items-center'>
           <div class='flex flex-col justify-center bg-contain items-center pt-5'>
