@@ -1,8 +1,7 @@
 import React from 'react'
 import backgroundImages from './assets/backgroundImages'
 import { NavLink } from 'react-router-dom'
-import './styles/hexagon.css'
-//
+
 export default function Infospace () {
   return (
     <div class='h-full w-full relative space-y-10 pt-36'>

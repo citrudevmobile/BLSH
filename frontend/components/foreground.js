@@ -3,7 +3,7 @@ import './styles/styletext.css'
 
 export default function Foreground () {
   return (
-    <div id='feed-scroll' class='h-screen w-full bg-white flex flex-col'>
+    <div id='feed-scroll' class='h-screen w-full bg-transparent flex flex-col'>
 
       <div
         class='flex flex-col justify-center bg-contain items-center pt-5 space-y-8'

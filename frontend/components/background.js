@@ -3,6 +3,8 @@ import React, { useState, useEffect } from 'react'
 import { NavLink } from 'react-router-dom'
 import images from './assets/images'
 import Infospace from './infospace'
+import Pricetracker from './pricetracker'
+import Foreground from './foreground.js'
 
 export default function Background () {
   const [scrolled, setScrolled] = useState(false)
@@ -13,26 +15,16 @@ export default function Background () {
 
   return (
     <div id='feed-scroll' class='parallax'>
-      <div class='parallax__layer parallax__layer__0'>
-        <img src={images.imageOne} />
-      </div>
-      <div class='parallax__layer parallax__layer__1'>
-        <img src={images.imageTwo} />
-      </div>
-      <div class='parallax__layer parallax__layer__2'>
-        <img src={images.imageThree} />
-      </div>
-      <div class='parallax__layer parallax__layer__3'>
-        <img src={images.imageFour} />
-      </div>
-      <div class='parallax__layer parallax__layer__4'>
-        <img src={images.imageFive} />
-      </div>
-      <div class='parallax__layer parallax__layer__5'>
-        <img src={images.imageSix} />
-      </div>
+      <div class='parallax__layer parallax__layer__0' />
+      <div class='parallax__layer parallax__layer__1' />
+      <div class='parallax__layer parallax__layer__2' />
+      <div class='parallax__layer parallax__layer__3' />
+      <div class='parallax__layer parallax__layer__4' />
+      <div class='parallax__layer parallax__layer__5' />
       <div class='parallax__layer parallax__layer__6'>
-        <img src={images.imageSeven} />
+
+        <Pricetracker />
+
       </div>
       <div class='parallax__cover'>
         <div class='flex justify-center'>
