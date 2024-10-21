@@ -277,7 +277,6 @@ const CryptoDetails = () => {
     return (React.createElement('div', { id: 'crypto-details', className: classNames(sign, { transitioning: state.transitioning }) },
       React.createElement('div', { id: 'crypto-details-content' },
         React.createElement('div', { id: 'crypto-fields' },
-          React.createElement(CryptoField, { label: 'Rank', value: crypto.rank }),
           React.createElement(CryptoField, { label: 'Name', value: crypto.name }),
           React.createElement(CryptoField, { label: 'Price', value: crypto.price }),
           React.createElement(CryptoField, { label: 'Market Cap', value: crypto.marketCap }),
