@@ -91,7 +91,7 @@ export default function Infospace () {
 
             </div>
           </div>
-          <p class='font-sans p-8 text-start md:text-center md:text-lg md:p-4'>© 2023 BLSH. All rights reserved.</p>
+          <p class='font-sans p-8 text-start md:text-center md:text-lg md:p-4'>© 2024 BLSH. All rights reserved.</p>
         </div>
       </footer>
     </div>
