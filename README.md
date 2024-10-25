@@ -22,10 +22,11 @@ npm run build
 The folder structure of this app is explained below:
 
 | Name | Description |
-| ------------------------ | --------------------------------------------------------------------------------------------- |
-| **dist**                 | Contains the distributable (or output) from your TypeScript build.  |
-| **node_modules**         | Contains all  npm dependencies                                   
-| **frontend**             | Contains  source code that will be compiled to dist
+| ------------------------ | --------------------------------------------------------------------------------------------- | 
+| **frontend**             | Contains source code that will be compiled to ./dist folder when 'npm run build' command is invoked
+| **routes/index.js**      | Express routes are defined in this file
+| **tests**                | Contains unit tests for the project
+| **index.js**             | 
 
 
 ## Testing
