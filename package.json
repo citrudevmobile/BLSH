@@ -7,8 +7,8 @@
   "scripts": {
     "test": "node --experimental-vm-modules ./node_modules/.bin/jest --verbose ./tests && standard --fix",
     "dev": "parcel frontend/index.html",
-    "build": "parcel build frontend/index.html",
-    "start": "parcel build frontend/index.html "
+    "build": "parcel build frontend/index.html && node index.js",
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
