@@ -5,7 +5,7 @@ A dashboard to help you configure and control Freqtrade, a free and open source 
 # Getting started
 - Clone the repository
 ```
-git clone  https://github.com/citrudevmobile/BLSH.git
+git clone https://github.com/citrudevmobile/BLSH.git
 ```
 - Install dependencies
 ```
