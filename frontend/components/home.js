@@ -8,7 +8,6 @@ export default function Home () {
   useEffect(() => {
 
   })
-
   return (
     <div id='feed-scroll' class='parallax'>
       <div class='parallax__layer parallax__layer__0' />

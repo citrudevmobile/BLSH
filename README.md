@@ -1,6 +1,9 @@
 # BLSH
 
-
+- About
+```
+A dashboard to help you configure and control Freqtrade, a free and open source crypto trading bot.
+```
 
 # Getting started
 - Clone the repository
